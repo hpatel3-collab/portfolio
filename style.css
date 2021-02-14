@@ -1,0 +1,57 @@
+    h1{
+        color:rgb(0, 0, 0);
+        margin-left: 30px; 
+    }
+    .header *{
+        border:solid;
+    }
+    .header{
+        border:solid;
+    }
+    .header{
+        background-color: rgb(230, 230, 230);
+        display: flex;
+        justify-content: space-evenly;
+    } 
+    .grid{
+        display: flex;
+        flex-wrap: wrap ;
+        justify-content: space-evenly;
+    }
+    p,h2{
+        text-align: center;
+        background-color: cornflowerblue;
+        font-size: large;
+        font-synthesis: unset;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-color: rgb(240, 231, 184);
+    }
+    .menu{
+        margin-right: 30px;
+    }
+    a:link{
+        color:blue;
+    }
+    a:visited{
+        color:purple;
+    }
+    .menu a {
+        margin-left: 20px;
+    }
+    .item{
+        position:relative;
+    }
+    .item p {
+        position:absolute;
+        top:50%;
+        left:50%;
+        transform:translate(-50%,-100%);
+    }
+    .item:hover p {
+        opacity:0.5
+    }
+    .item:hover img {
+        opacity:0.5
+    }
